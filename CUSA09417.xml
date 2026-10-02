@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <TitleID>
+        <ID>CUSA00717</ID>
+        <ID>CUSA09417</ID>
+    </TitleID>
+    <Metadata Title="Detroit Become Human" Name="60 FPS Unlock (Pattern Scan)" Note="Pattern scan patch for any version" Author="0xDeftones" PatchVer="1.0" AppVer="mask" AppElf="eboot.bin">
+        <PatchList>
+            <Line Type="mask" Address="41 c7 85 90 9f 05 00 01 00 00 00" Offset="0" Value="41c785909f050002000000"/>
+            <Line Type="mask" Address="4c 89 eb 39 05 9d b5 02 01 74 1d 31 f6" Offset="9" Value="9090"/>
+            <Line Type="mask" Address="48 8d 05 bd 30 0f 01 40 0f 95 c6 8b 38" Offset="7" Value="4030f690"/>
+        </PatchList>
+    </Metadata>
+</Patch>
